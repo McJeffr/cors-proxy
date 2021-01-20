@@ -2,10 +2,10 @@
   "name": "cors-proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build:start": "npm run build && npm run start",
-    "start": "node -r dotenv/config build/src/index.js",
+    "start": "node -r dotenv/config build/index.js",
     "dev": "nodemon",
     "build": "rimraf ./build && tsc"
   },
